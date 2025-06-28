@@ -17,7 +17,7 @@ const generateToken = (payload) => {
  */
 const verifyToken = (token) => {
   try {
-    return jwt.verify(token, process.env.JWT_SECRET);
+    return jwt.verify(token, process.env.JWT_SECRET); //camparing token with secret rather than token itself
   } catch (error) {
     logger.critical("Token verification failed:", error.message);
     throw new Error("Invalid token");

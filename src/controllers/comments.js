@@ -1,4 +1,3 @@
-// TODO: Implement comments controller
 // This controller should handle:
 // - Creating comments on posts
 // - Editing user's own comments
@@ -15,10 +14,14 @@ const {
 } = require("../models/comment");
 const logger = require("../utils/logger");
 
-// TODO: Implement createComment function
-// TODO: Implement updateComment function
-// TODO: Implement deleteComment function
-// TODO: Implement getPostComments function
+/* 
+Tasks did - Added
+  createComment,
+  updateComment
+  deleteComment,
+  getPostComments functionality
+*/
+
 
 /**
  * Create a comment on a post

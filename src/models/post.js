@@ -1,5 +1,11 @@
 const { query } = require("../utils/database");
 
+/* 
+Tasks did - Added getFeedPosts, updatePost, searchPosts fuuntionality
+- filter out deleted posts
+-is_deleted shold be marked as true while deleting post
+*/
+
 /**
  * Post model for database operations
  */
@@ -80,13 +86,6 @@ const deletePost = async (postId, userId) => {
 
   return result.rowCount > 0;
 };
-
-// TODO: Implement getFeedPosts function that returns posts from followed users
-// This should include pagination and ordering by creation date
-
-// TODO: Implement updatePost function for editing posts
-
-// TODO: Implement searchPosts function for content search
 
 /**
  * Get feed posts from followed users (with pagination)

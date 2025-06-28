@@ -1,15 +1,13 @@
 const { query } = require("../utils/database");
 
+/* 
+Tasks did - Added createComment, updateComment, deleteComment, getPostComments, getCommentById fuuntionality
+*/
+
 /**
  * Comment model for managing post comments
- * TODO: Implement this model for the comment functionality
  */
 
-// TODO: Implement createComment function
-// TODO: Implement updateComment function
-// TODO: Implement deleteComment function
-// TODO: Implement getPostComments function
-// TODO: Implement getCommentById function
 
 /**
  * Create a new comment

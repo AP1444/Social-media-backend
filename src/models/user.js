@@ -1,6 +1,11 @@
 const { query } = require("../utils/database");
 const bcrypt = require("bcryptjs");
 
+/* 
+Tasks did - Added findUsersByName, getUserProfile, updateUserProfile functionality
+ - adding hashed password in db instead of plain password
+*/
+
 /**
  * User model for database operations
  */
@@ -60,12 +65,6 @@ const verifyPassword = async (plainPassword, hashedPassword) => {
   return await bcrypt.compare(plainPassword, hashedPassword);
 };
 
-// TODO: Implement findUsersByName function for search functionality
-// This should support partial name matching and pagination
-
-// TODO: Implement getUserProfile function that includes follower/following counts
-
-// TODO: Implement updateUserProfile function for profile updates
 
 /**
  * Find users by (partial) name with pagination

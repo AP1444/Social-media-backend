@@ -1,4 +1,3 @@
-// TODO: Implement users controller
 // This controller should handle:
 // - Following a user
 // - Unfollowing a user
@@ -16,10 +15,15 @@ const {
 const { findUsersByName, getUserProfile } = require("../models/user");
 const logger = require("../utils/logger");
 
-// TODO: Implement follow function
-// TODO: Implement unfollow function
-// TODO: Implement getMyFollowing function
-// TODO: Implement getMyFollowers function
+/* 
+Tasks did - Added follow,
+  unfollow,
+  getMyFollowing,
+  getMyFollowers,
+  getMyFollowStats,
+  searchUsers,
+  getProfileWithStats, functionality
+*/
 
 // This controller handles:
 // - Following a user

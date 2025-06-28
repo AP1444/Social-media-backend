@@ -1,8 +1,7 @@
 -- Create database tables for the social media platform
 -- This script creates tables for implemented features only; create tables for like, comment and follow features
 
--- TODO: Create tables for like, comment and follow features
--- TODO: Create indexes for better performance
+--Task did - Added tables for like, comment and follow features
 
 -- Users table
 CREATE TABLE IF NOT EXISTS users (

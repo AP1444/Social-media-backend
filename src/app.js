@@ -13,6 +13,10 @@ const commentRoutes = require("./routes/comments");
 const likeRoutes = require("./routes/likes");
 const { query } = require("./utils/database");
 
+/* 
+Tasks did - Added all API routes and scheduled feature
+*/
+
 /**
  * Express application setup and configuration
  */

@@ -9,6 +9,15 @@ const {
 } = require("../models/post.js");
 const logger = require("../utils/logger");
 
+/* 
+Tasks did - Added follow,
+  getFeed,
+  schedule
+  update,
+  search functionality
+  -changed const { user_id } = req.params; to const userId = req.params.user_id;
+*/
+
 /**
  * Create a new post
  */
@@ -171,12 +180,6 @@ const remove = async (req, res) => {
   }
 };
 
-// TODO: Implement getFeed controller for content feed functionality
-// This should return posts from users that the current user follows
-
-// TODO: Implement updatePost controller for editing posts
-
-// TODO: Implement searchPosts controller for searching posts by content
 
 /**
  * Get feed posts from followed users

@@ -1,15 +1,12 @@
 const { query } = require("../utils/database");
 
+/* 
+Tasks did - Added likePost, unlikePost, getPostLikes, getUserLikes, hasUserLikedPost fuuntionality
+*/
+
 /**
  * Like model for managing post likes
- * TODO: Implement this model for the like functionality
  */
-
-// TODO: Implement likePost function
-// TODO: Implement unlikePost function
-// TODO: Implement getPostLikes function
-// TODO: Implement getUserLikes function
-// TODO: Implement hasUserLikedPost function
 
 const likePost = async (userId, postId) => {
   try {

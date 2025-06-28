@@ -15,6 +15,10 @@ const { authenticateToken, optionalAuth } = require("../middleware/auth");
 
 const router = express.Router();
 
+/* 
+Tasks did - Added required routes
+*/
+
 /**
  * Posts routes
  */
@@ -28,7 +32,6 @@ router.post("/schedule", authenticateToken, schedule);
 // GET /api/posts/my - Get current user's posts
 router.get("/my", authenticateToken, getMyPosts);
 
-// TODO: Add route for content feed
 // GET /api/posts/feed - Get posts from followed users
 router.get("/feed", authenticateToken, getFeed);
 
@@ -44,7 +47,6 @@ router.get("/user/:user_id", optionalAuth, getUserPosts);
 // DELETE /api/posts/:post_id - Delete a post
 router.delete("/:post_id", authenticateToken, remove);
 
-// TODO: Add route for updating posts
 // PUT /api/posts/:post_id - Update a post
 router.put("/:post_id", authenticateToken, update);
 

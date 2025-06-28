@@ -1,15 +1,12 @@
 const { query } = require("../utils/database");
 
+/* 
+Tasks did - Added followUser, unfollowUser, getFollowing, getFollowers, getFollowCounts fuuntionality
+*/
+
 /**
  * Follow model for managing user relationships
- * TODO: Implement this model for the follow functionality
  */
-
-// TODO: Implement followUser function
-// TODO: Implement unfollowUser function
-// TODO: Implement getFollowing function
-// TODO: Implement getFollowers function
-// TODO: Implement getFollowCounts function
 
 /**
  * Follow a user

@@ -1,4 +1,3 @@
-// TODO: Implement likes controller
 // This controller should handle:
 // - Liking posts
 // - Unliking posts
@@ -13,10 +12,13 @@ const {
 } = require("../models/like");
 const logger = require("../utils/logger");
 
-// TODO: Implement likePost function
-// TODO: Implement unlikePost function
-// TODO: Implement getPostLikes function
-// TODO: Implement getUserLikes function
+/* 
+Tasks did - Added
+  likePost,
+  unlikePost
+  getPostLikes,
+  getUserLikes functionality
+*/
 
 /**
  * Like a post
